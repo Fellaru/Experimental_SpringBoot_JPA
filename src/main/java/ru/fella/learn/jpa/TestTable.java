@@ -17,7 +17,6 @@ import javax.persistence.Id;
 @Entity
 public class TestTable {
     @Id
-    @GeneratedValue
     private Integer id;
     private String value;
 }

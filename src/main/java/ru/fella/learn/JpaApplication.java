@@ -24,5 +24,6 @@ public class JpaApplication implements CommandLineRunner {
 		Optional<TestTable> testTable = repository.findById(1);
 		System.out.println("Вывод");
 		System.out.println(testTable.get().getValue());
+		repository.saveHellowithName("Ella");
 	}
 }
